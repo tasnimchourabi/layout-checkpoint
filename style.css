@@ -1,0 +1,302 @@
+a{
+    all: unset;
+
+}
+.titre{
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+   height:200px;
+   width: 300px;
+}
+.border{
+    border:1px solid red;
+}
+.list{
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+    margin-right:5rem;
+    
+}
+.img{
+    width: 50px;
+    height: 50px;
+}
+nav{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.lead_logo{
+       width: 5%;
+       margin-left: auto;
+       margin-right: auto;
+    }
+h1{
+    font-family: Work Sans,Arial,sans-serif;
+    font-weight: 300;
+    letter-spacing: -.3px;
+    color: #00b39b;
+    text-align: center;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    font-size: 40px;
+
+}
+.paragraph_container{
+  width:100%;
+}
+.p{ 
+    display: inline-block;
+    width: 45%; 
+    margin: 10px; 
+    padding: 50px; 
+    box-sizing: border-box; 
+    vertical-align: top; 
+    font-size: 20px;
+    font-family:  Work Sans,Arial,sans-serif;
+    color:rgb(94, 82, 82) ;
+}
+.card-container{
+    display: flex;
+    justify-content: space-around; 
+    flex-direction: row;
+
+}
+.card1{
+    background-color: #00ccb1;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    padding: 2em 2em 0;
+    justify-content: space-between;
+    height: 345px;
+    color: white;
+}
+
+.card2{
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    padding: 2em 2em 0;
+    justify-content: space-between;
+    height: 345px;
+    background-color: #4648d8; 
+  color: white; 
+
+
+}
+.card3{
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    padding: 2em 2em 0;
+    justify-content: space-between;
+    height: 345px;
+    background-color:  #213452;
+  color: white; 
+}
+.card-body{
+    font-size: 40px;
+    font-style:Work Sans,Arial,sans-serif ;
+
+}
+.cardpara{
+    font-size: 30px;
+    font-style:Work Sans,Arial,sans-serif
+
+}
+.section2{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+
+}
+#section2title {
+    font-size: 1.625em;
+    margin: 0.25em 0 0.35em;
+    padding-right: 1em;
+    color: #00b39b;
+    font-family: Work Sans, Arial, sans-serif;
+    font-weight: 300;
+    letter-spacing: -0.3px;
+}
+#section2logos {
+    display: flex;
+    gap: 4rem;
+    flex-wrap: wrap;
+}
+.section3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 55px;
+    background-color: #d0faf4;
+    padding-left: 50px;
+}
+.section3header {
+    font-family: Work Sans, Arial, sans-serif;
+    padding-top: 60px;
+}
+.section3header h2 {
+    color: #00b39b;
+    font-weight: 300;
+    letter-spacing: -0.3px;
+    padding-left: 50px;
+}
+.section3header p 
+{
+    padding-left: 50px;
+    padding-top: 10px;
+    font-size: 15px;
+    color: #747474;
+    padding-bottom: 50px;
+}
+img{ 
+    display: flex;
+    vertical-align:text-bottom;
+    border: 0;
+    width: 150%; 
+    height: 150; 
+}
+.card-container2 {
+    display: flex;
+    flex-wrap: wrap;
+    /* margin-right: 50px; */
+    /* height: 100%;
+    justify-content: space-around;
+    margin-left: 100px; */
+}
+
+.first2 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-right: 20px;
+    justify-content: space-around;
+}
+.first2
+.second2 {
+    width: 45%; 
+    display: flex;
+    flex-direction: column;
+    gap: 20px; 
+    align-items: center;
+}
+#leader, #patients, #appointments, #doctors {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    text-align: center;
+    width: 220px;
+    border-radius: 2px;
+}
+#leader img{
+    width: 25px;
+    height: auto;
+}
+.section3fourparts h3 {
+        font-size: 1.8461538462em;
+        color: #00b39b;
+        font-family: Work Sans, Arial, sans-serif;
+        font-weight: 300;
+        letter-spacing: -0.3px;
+    }
+    .section3fourparts p {
+        font-size: 0.8125em;
+        font-weight: 400;
+        font-family: Roboto, Arial, sans-serif;
+        color: #747474;
+    }
+    #patients {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-color: #fff;
+        text-align: center;
+        width: 220px;
+        border-radius: 2px;
+    }
+.section3fourparts h3 {
+        font-size: 1.8461538462em;
+        color: #00b39b;
+        font-family: Work Sans, Arial, sans-serif;
+        font-weight: 300;
+        letter-spacing: -0.3px;
+}
+#appointments {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    text-align: center;
+    width: 220px;
+    border-radius: 2px;
+}
+#doctors {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    text-align: center;
+    width: 220px;
+    border-radius: 2px;
+}
+.section4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 70px;
+    width: 100%;
+}
+
+.section4 h3 {
+    font-size: 2.1428571429em;
+    color: #00b39b;
+    font-family: Work Sans, Arial, sans-serif;
+    font-weight: 300;
+    letter-spacing: -0.5px;
+    text-align: center;
+}
+.section6 {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5cm;
+    justify-content: space-between;
+}
+.section6 img{
+    all: unset;
+         width: calc(100% - 1px);  
+         height: auto;
+        margin-bottom: 10px;
+        overflow-clip-margin: content-box;
+        overflow: clip;
+}
+.section6 div {
+    border-radius: 3%;
+    margin: 0.44%;
+}
+.country {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+ div .buttons {
+        display: flex;
+        justify-content: space-between;
+    }
